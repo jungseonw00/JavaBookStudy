@@ -1,6 +1,6 @@
 package p211119;
 
-public class Member {
+public final class Member {
 	String name;
 	String id;
 	String password;

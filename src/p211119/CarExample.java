@@ -1,13 +1,19 @@
 package p211119;
 
-public class CarExample {
+public class CarExample extends Car {
 
 	public static void main(String[] args) {
-		Car myCar = new Car();
-//		myCar.keyTurnOn();
-//		myCar.run();
-//		int speed = myCar.getSpeed();
-//		System.out.println("현재 속도: " + speed + "km/h");
+		
 	}
 
+	@Override
+	public void speedUp() {
+		// TODO Auto-generated method stub
+		super.speedUp();
+	}
+
+	@Override
+	public void stop() { //final 이라서 상속불가
+		
+	}
 }
